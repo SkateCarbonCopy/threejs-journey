@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+html, body {
+    /* if the canvas doesn't have scroll controls it would be possible to scroll beyond the length of the page, this prevents that */
+    overflow: hidden;
+}
+
+canvas.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Removes blue outline on some browsers */
+    outline: none;
+}
